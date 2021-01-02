@@ -112,6 +112,7 @@ body {
     transition: transform 500ms;
     padding: 1.25em;
     border-radius: 5px;
+    margin-bottom: 0.75em;
 }
 #button:hover,
 #button:focus {
@@ -132,9 +133,7 @@ body {
         width: 50%;
     }
     .hero {
-        /* min-width: 50vw; */
         min-height: 100vh;
-        /* justify-content: center; */
         margin: 0;
         align-items: center;
     }
@@ -145,7 +144,7 @@ body {
     .hero h2 {
         margin: 0;
         font-size: 2rem;
-        margin-bottom: 50px;
+        margin-bottom: 150px;
     }
     .hero > * {
         max-width: 400px;
